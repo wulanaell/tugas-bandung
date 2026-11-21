@@ -1,0 +1,121 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap');
+
+body{
+    font-family:Quicksand ,sans-serif;
+}
+
+h1{
+    text-align: center; 
+    color:white;
+}
+
+header{
+    background-color:lightblue;
+}
+
+
+body > header{
+    background-color:gray;
+}
+
+header > p {
+    text-align: center;
+    color:white;
+
+}
+
+nav{
+    background-color: aliceblue;
+}
+
+a{
+    text-decoration: none;
+}
+
+nav ul{
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: row;
+    list-style: none;
+}
+
+li a{
+    color: darkblue;
+}
+
+main{
+    display: flex;
+    gap: 50px;
+    margin: 30px
+}
+
+#content{
+    flex: 3;
+    box-shadow: 5px 15px 15px 9px rgba(0, 0, 0, 0.20);
+    border-radius:12px ;
+}
+aside{
+    flex: 1;
+    box-shadow: 5px 15px 15px 9px rgba(0, 0, 0, 0.20);
+    border-radius: 12px;
+}
+
+aside{
+    flex: 1;
+    margin-top: 0;
+}
+
+aside header h2{
+    color: blue;
+    text-align: center;
+}
+
+#sejarah {
+    padding: 15px;
+}
+
+#content{
+    padding: 15px;
+}
+
+#content {
+    flex: 2;
+    padding:  15px;
+}
+
+aside {
+    flex: 1;
+    min-width: 300px;
+    padding: 15px;
+}
+
+nav ul {
+    display: flex;
+    justify-content: space-around;
+    padding-top: 15px;
+}
+
+#geografis {
+    padding: 15px;
+}
+#wisata {
+    padding: 15px;
+}
+
+aside article{
+    border-radius: 28px;
+    overflow: hidden;
+}
+
+aside article figure {
+    text-align: center;
+}
+
+aside article figure img{
+    display: block;
+    margin: 0 auto;
+}
+
+aside article section h3 {
+    text-align: center;
+}
